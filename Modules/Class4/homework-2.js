@@ -63,6 +63,7 @@ console.log(`does ${sentence3} include 'body' : ${sentence3_Include_BOD}`);
 let sentence3_Index = sentence3_UpperCase.indexOf('BODY');
 console.log(`\nIndex of body in sentence 3 is ${sentence3_Index}`)
 
+
 // 5. the last-character in sentence-3
 
 let sentence3_CharAt = sentence3.charAt(70)
