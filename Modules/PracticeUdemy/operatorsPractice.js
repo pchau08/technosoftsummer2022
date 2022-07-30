@@ -1,5 +1,6 @@
-function calcAge1(birthYeah) {
-    return 2037 - birthYeah
+function reverseString(str) {
+    return str.split("").reverse().join("");
 }
+reverseString("hello");
+console.log(reverseString("hello world bitch"));
 
-const age1 = calcAge1(1991)
